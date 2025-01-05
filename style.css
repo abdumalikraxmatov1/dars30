@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    padding: 30px 0;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.hota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+i{
+    color: white;
+    font-size: 20px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.s1{
+    height: 730px;
+    background-image: url(./img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.s1 h1{
+    color: white;
+    font-size: 65px;
+}
+.s1 p{
+    color: white;
+    font-size: 17px; 
+    margin: 30px 0 20px;
+}
+.s1t{
+    width: 460px;
+    position: absolute;
+    top: 170px;
+    left: 200px;
+}
+.btn{
+    padding: 12px 18px;
+    background-color: #F57520;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.s2{
+    background-color: rgb(142, 141, 141);
+    padding: 120px 0 40px 0;
+}
+ h2{
+    font-size: 55px;
+    text-align: center;
+    margin: 0px 0 70px;
+}
+.big-velo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1280px;
+height: 300px;
+border-radius: 10px;
+background-color: black;
+transition: 0.5s;
+}
+h3{
+color: white;
+font-size: 50px;
+font-weight: 700;
+line-height: 49.2px;
+}
+.big-velo:hover{
+    background-color: #F57520;
+}
+.s2ota{
+    /* width: 1280px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.trade{
+    text-align: center;
+    width: 400px;
+height: 458px;
+border-radius: 10px;
+background-color: black;
+transition: 0.5s;
+}
+.trade h3{
+    margin: 40px 0 70px;
+}
+.trade:hover{
+    background-color: #F57520;
+}
+.zap{
+    display: flex;
+    width: 400px;
+height: 216px;
+border-radius: 10px;
+transition: 0.5s;
+background-color: black;
+}
+.zap h3{
+    margin: 20px 40px 0 20px;
+}
+.zap:hover{
+    background-color: #F57520;
+}
+.divs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.doda{
+    display: flex;
+    gap: 30px;
+}
+
+
+.s3{
+    background-color: rgb(142, 141, 141);
+    padding: 120px 0 80px 0;
+}
+.card{
+    width: 400px;
+height: 462px;
+border-radius: 10px;
+background-color: black;
+color: white;
+transition: 0.5s;
+}
+.card h4{
+    font-size: 19px;
+    margin: 20px 20px 50px;
+}
+.card p{
+    font-size: 20px;
+    margin: 0 20px;
+}
+.card:hover{
+    background-color: #F57520;
+    color: black;
+}
+.s3ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+textarea{
+    width:626px;
+height: 154px;
+font-size: 20px;
+
+}
+.s4input{
+    display: flex;
+    align-items: center;
+    width: 660px;
+height: 354px;
+flex-wrap: wrap;
+gap: 20px;
+}
+input{
+    width:302px;
+height:46px;
+top: 242px;
+left: 314px;
+padding: 10px 16px 10px 16px;
+border-radius: 10px;
+}
+.s4{
+    background-color: #F57520;
+    background-image: url(./img/image\ 86.png);
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: 1120px;
+    background-position: right;
+    padding: 70px 0 0;
+}
+.s4 h3{
+    margin-bottom: 40px;
+}
+.bt{
+    width:626px;
+    height: 50px;
+    color: #F57520;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+iframe{
+   width: 1280px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 30px 0 50px;
+}
+.end h5{
+   color: white;
+   font-size: 30px;
+}
+.end p{
+    color: whitesmoke;
+}
+.end{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.f-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
